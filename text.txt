@@ -1,0 +1,85 @@
+var car = [0,1,2,3,4,5,6,7,8,9];
+        var splice = car.splice(3,5);
+        console.log(car);
+
+        console.log(array.splice(2));
+
+        array.splice(2);
+        console.log(array);
+
+        var array = [1,2,3,4,5];
+        console.log(array.splice(2));
+
+        if (confirm("Are you John Smith?")){
+            console.log("Hello John, how are you");
+        } else {
+            console.log("Then whats your name?")
+        }
+
+        var myNumber = 42;
+        if (myNumber == 43){
+            console.log("correct")
+        } else {
+            console.log("incorrect");
+        }
+
+        var foo = 3;
+        var bar = 2;
+        if ( foo < bar){
+            console.log("Foo is smaller")
+        } else {
+            console.log("no")
+        }
+
+         if (confirm("if your James? If yes press ok")) {
+        alert("Welcome bro")
+      } else {
+        alert("Bye")
+      }
+
+      var foo = 1;
+        var bar = 2;
+        var moo = 3;
+     if (foo < bar || moo < bar){
+       alert("foo is smaller than bar OR moo is larger than bar.");
+      }
+
+      let day;
+        switch(new Date().getDay()){
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday"
+                break;
+            case 4:
+                day = "Thursday"
+                break;
+            case 5:
+                day = "Friday"
+                break;
+            case 6:
+                day = "Saterday"
+                break;
+            case 7:
+                day = "Sunday"
+        }
+        console.log(day)
+
+        var Animal = "Pig";
+        switch(Animal){
+            case "Cow":
+            case "Giraffe":
+            case "Dog":
+            case "Pig":
+                console.log("This animal will go on Noah's ark.")
+                break;
+            default:
+                console.log("This animal will not be on the ark")
+        }
